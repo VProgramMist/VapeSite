@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+    color: #727272;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    margin: 10px;
+    height: 20px;
+}
+
+.page-main p {
+    text-align: center;
+}
+
+.map {
+    width: max-content;
+    border: 2px solid #33c1e3;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.send-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-elem {
+    border: 2px solid #33c1e3;
+    border-radius: 10px 10px;
+    padding-left: 10px;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+
+.inp-elem:focus {
+    border-color: #e85f61;
+}
+
+fieldset {
+    border-radius: 10px;
+}

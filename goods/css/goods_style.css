@@ -1,0 +1,84 @@
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.page-main img {
+    width: 280px;
+    height: 280px;
+    margin-left: 50px;
+    float: left;
+    margin-right: 100px;
+}
+
+.page-main img:hover {
+    border-color: #e85f61;
+}
+
+.characteristics ul {
+    list-style: none;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.characteristics {
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.characteristics p {
+    text-align: right;
+    color: #414141;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    min-height: 100px;
+}
+
+.button-buy {
+    text-align: center;
+    width: 80px;
+    margin: 30px auto 20px auto;
+    padding: 10px;
+}
+
+.button-buy a {
+    padding: 5px 15px 5px 15px;
+    color: #33c1e3;
+    text-decoration: none;
+    border: 3px solid #33c1e3;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-buy a:hover {
+    color: white;
+    background-color: #33c1e3;
+}
+
+.button-buy a:active {
+    border-color: #e85f61;
+    background-color: #e85f61;
+}
+
+.page-main {
+    clear: both;
+}
